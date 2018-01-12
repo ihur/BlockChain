@@ -25,3 +25,19 @@
   - Real estate
   - Crowd funding
   - etc.
+
+3. What is the block looks like?
+    block = {
+        'index': 1000,
+        'timestamp': 1497153600.0,
+        'transactions': [
+            {
+                'sender': "b10a8db164e0754105b7a99be72e3fe5",
+                'recipient': "859709ae37d323c8254a290b73a7f7a3",
+                'name': Luke,
+                'address': Alexandria, VA
+            }
+        ],
+        'proof': 123456789,
+        'previous_hash': "50245f71cec2c86087b11daf79a35dcb"
+    }
